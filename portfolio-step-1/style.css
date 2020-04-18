@@ -11,6 +11,7 @@ body {
   background-position: top center;
 }
 
+
 .container {
   max-width: 928px;
   margin: 0 auto;
@@ -89,6 +90,7 @@ body {
 
 .intro h3,
 .portfolio h3 {
+
   margin: 0 0 12px;
   font-size: 28px;
   line-height: 40px;
@@ -167,6 +169,7 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+
 }
 
 .page-footer {
@@ -191,4 +194,15 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+/*my*/
+.raight,.left{
+display: flex;
+width: 50%;
+}
+.container2{
+width: 1000px;
+display: flex;
+align-items: center;
+text-align: left;
 }
